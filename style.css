@@ -1,0 +1,257 @@
+:root{
+    --dardred: #4f2388;;
+    --dark: #201f22;
+    --white: #f2f2f4;
+    --black: #010103;{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+}
+
+body
+
+{
+    background: lightskyblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: wheat;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0,1);
+}
+.container .left_Side
+{
+    position: relative;
+    background: #171718;
+    padding: 40px;
+}
+.profile
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.profile .myimg
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile .myimg img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile h3
+{
+    color: white;
+    font-size: 1em;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+}
+.title
+{
+    color: goldenrod;
+    font-size: 1em;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1em;
+}
+.contactInfo ul
+{
+    position: relative;
+
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+.contactInfo ul li .icon
+{
+    color: goldenrod;
+    display: inline-block;
+    width: 30px;
+    font-size: 16px;
+    
+}
+.contactInfo ul li span
+{
+    color: white;
+    font-size: small;
+    
+    
+}
+.educ ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.educ li
+{
+    margin-bottom: 15px;
+}
+.educ ul li h5
+{
+    color: goldenrod;
+    font-weight: 500;
+    
+}
+.educ ul li h4:nth-child(2)
+{
+    color: white;
+    font-weight: 500;
+      
+}
+.educ h4
+{
+    color: white;
+    font-weight: 100;
+    
+}
+.container .right_Side
+{
+    position: relative;
+    background: wheat;
+    padding: 40px;
+
+}
+.skill::ater{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -6px;
+    border-radius: 10px;
+}
+.c{width: 10%; background-color: rgb(255, 196, 0); border-radius: 20px; height: 11px; margin-left: 250px;}
+.css{width: 20%; background-color: rgb(255, 196, 0); border-radius: 20px; height: 11px; margin-left: 250px;}
+.html{width:30%; background-color: rgb(255, 196, 0); border-radius: 20px; height: 11px; margin-left: 250px;}
+.java{width: 10%; background-color: rgb(255, 196, 0); border-radius: 20px; height: 11px; margin-left: 250px;}
+
+
+h1{
+    font-size: 30px;
+    line-height: 50px;
+    width: 450px;
+    font-weight: 100;
+    margin-bottom: 0;
+    color: white;
+    background-color: rgb(255, 196, 0);
+    text-transform: uppercase;
+}
+.p2{
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 17px;
+}
+.head{
+    text-transform: uppercase;
+    color: var(--white);
+    background: var(--dark);
+    letter-spacing: 5px;
+    text-align: center;
+    width: 350px;
+    font-weight: 300;
+    margin: 20px auto;
+}
+.head1{
+   
+    text-transform: uppercase;
+    color: var(--white);
+    background: var(--dark);
+    letter-spacing: 5px;
+    text-align: center;
+    width: 200px;
+    font-weight: 300;
+    margin: 20px auto;
+}
+h2{
+    text-transform: uppercase;
+    background: var(--dark);
+    color: var(--white);
+    letter-spacing: 4px;
+    text-align: center;
+    width: 170px;
+    border-radius: 20px;
+    border: solid rgb(255, 196, 0);
+    margin-left: 11px;
+    padding-left: 5px;
+}                       
+h3{
+    margin: 0px;
+}
+.p3{
+    margin: 0 auto;
+    line-height: 20px;
+    width: 260px;
+    font-size: 14px;
+}
+.p4{
+    margin: 0 auto;
+    line-height: 20px;
+    width: 260px;
+    font-size: 14px;
+    padding-left: 80px;
+}
+.p5{
+    margin: 0 auto;
+    line-height: 20px;
+    width: 260px;
+    font-size: 14px;
+    padding-left: 90px;
+}
+.p6{
+    margin: 0 auto;
+    line-height: 20px;
+    width: 260px;
+    font-size: 14px;
+    padding-left: 160px;
+}
+.line{
+    transform: rotateZ(90deg);
+    right: -470px;
+    position: absolute;
+    top: 426px;
+}
+.line li{
+    list-style: none;
+    float: left;
+    padding: 20px 97.5px;
+    border-bottom: solid var(--dardred);
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+}
+
+    
